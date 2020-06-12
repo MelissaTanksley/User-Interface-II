@@ -1,0 +1,30 @@
+body {
+    background: gray;
+    width: 700px;
+    height: 100px;
+    color: white;
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px black;
+    margin: 90px;
+  }
+  h1 {
+    color: lightblue;
+  }
+  
+  @sky: #82DCE9
+    
+    h1.font {
+    color: @sky;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  img {
+    border-radius: 20px;
+  }
+  
+  nav:hover {
+    background-color: white;
+  }
+  
